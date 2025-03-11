@@ -31,6 +31,8 @@ import br.com.fiap.statehosting.components.CardResultado
 fun JurosScreen() {
 
     var capital by remember { mutableStateOf("") }
+
+
     var taxa by remember { mutableStateOf("") }
     var tempo by remember { mutableStateOf("") }
     var juros by remember { mutableStateOf(0.0) }
